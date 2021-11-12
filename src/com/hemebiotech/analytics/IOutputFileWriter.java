@@ -1,6 +1,5 @@
 package com.hemebiotech.analytics;
 
-import java.io.IOException;
 import java.util.Map;
 
 /*
@@ -19,6 +18,6 @@ public interface IOutputFileWriter {
 	 * 
 	 */
 
-	public void fillOutputFile(Map<String, Integer> dataMap) throws IOException;
+	public void fillOutputFile(Map<String, Integer> dataMap) ;
 
 }
