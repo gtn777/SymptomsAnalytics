@@ -1,2 +1,1 @@
-First release working for all symptoms, and properly reported in the results.out file.
-
+Version 2.0.0 after code refactoring and new interfaces and classes created. 
