@@ -6,7 +6,7 @@ import java.util.Map;
 public class MainAnalyticsCounter {
 
 	static private String inputFilePath = "symptoms.txt"; // input data file path
-	static private String outputFilePath = "result.out"; // output reporting file path
+	static private String outputFilePath = "results.out"; // output reporting file path
 	static private List<String> rawList; // a raw list of symptoms
 	static private Map<String, Integer> sortedMap; // a sorted data map ready to be report
 
