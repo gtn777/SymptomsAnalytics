@@ -2,22 +2,23 @@ package com.hemebiotech.analytics;
 
 import java.util.Map;
 
-/*
+/**
  * 
- * Anything that receive an enhanced data collection and write them in a output file
+ * Anything that receive an enhanced data collection and write analyze report in
+ * a output file
  * 
  */
 
 public interface IOutputFileWriter {
 
-	/*
+	/**
 	 * 
-	 * Fill an existing file with data analyze results
+	 * Write a file with data analyze results
 	 * 
-	 * @param dataMap a data map ready to be reported in a file
+	 * @param dataMap is a data map ready to be reported in a file
 	 * 
 	 */
 
-	public void fillOutputFile(Map<String, Integer> dataMap) ;
+	public void getOutputFile(Map<String, Integer> dataMap);
 
 }

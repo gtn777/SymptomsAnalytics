@@ -5,13 +5,13 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class AnalyzeSymptomRawList implements ISymptomAnalyzer {
-	/*
+	/**
 	 * Analyze a symptom list and provide a sorted listing where duplicates are not
 	 * allowed, and occurrence quantity of each symptom is specified
 	 */
 	private List<String> rawList;
 
-	/*
+	/**
 	 * @param list is an unordered list of symptoms where duplicates are allowed
 	 *
 	 */
@@ -22,7 +22,7 @@ public class AnalyzeSymptomRawList implements ISymptomAnalyzer {
 	@Override
 	public Map<String, Integer> getSortedDataMap() {
 
-		// Set result map as a tree map
+		// TreeMap type is sorted automatically (implements SortedMap class)
 		Map<String, Integer> result = new TreeMap<String, Integer>();
 
 		// For each symptom in the raw list,

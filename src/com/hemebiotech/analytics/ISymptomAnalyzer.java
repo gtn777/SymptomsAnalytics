@@ -12,7 +12,8 @@ public interface ISymptomAnalyzer {
 	/**
 	 * If no data is available, return an empty map
 	 * 
-	 * @return a sorted data map where symptoms are keys and occurrence is the linked value
+	 * @return a sorted data map where symptoms are keys and occurrence is the
+	 *         linked value
 	 * 
 	 */
 

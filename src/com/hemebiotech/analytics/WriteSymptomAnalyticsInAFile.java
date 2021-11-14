@@ -14,15 +14,15 @@ public class WriteSymptomAnalyticsInAFile implements IOutputFileWriter {
 	private String filePath;
 
 	/**
-	 * @param filePath is the path of the file where analytics will be write
 	 * 
+	 * @param filePath is the path of the file where analytics will be write
 	 */
 	public WriteSymptomAnalyticsInAFile(String filePath) {
 		this.filePath = filePath;
 	}
 
 	@Override
-	public void fillOutputFile(Map<String, Integer> dataMap) {
+	public void getOutputFile(Map<String, Integer> dataMap) {
 
 		if ((filePath != null) && (!dataMap.isEmpty())) {
 

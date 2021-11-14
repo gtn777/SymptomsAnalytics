@@ -13,7 +13,7 @@ public class MainAnalyticsCounter {
 	public static void main(String args[]) throws Exception {
 
 //		read data from the input file according to inputFilePath and 
-//		store them in rawList where duplicates are allowed
+//		store them in rawList value where duplicates are allowed
 		ISymptomReader newRead = new ReadSymptomDataFromFile(inputFilePath);
 		rawList = newRead.getSymptoms();
 
@@ -23,9 +23,9 @@ public class MainAnalyticsCounter {
 		sortedMap = dataAnalyze.getSortedDataMap();
 
 // 		Creates an output file writer according to outputFilePath, 
-//		then the file is filled from sortedMap.
+//		then the file is written from sortedMap.
 		IOutputFileWriter analyticsReport = new WriteSymptomAnalyticsInAFile(outputFilePath);
-		analyticsReport.fillOutputFile(sortedMap);
+		analyticsReport.getOutputFile(sortedMap);
 
 	}
 }
